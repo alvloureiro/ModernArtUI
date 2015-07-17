@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RectangleActivity">
+        <attr name="rectangle_color" format="color"></attr>
+        <attr name="rectangle_id" format="integer"></attr>
+        <attr name="rectangle_width" format="integer"></attr>
+        <attr name="rectangle_height" format="integer"></attr>
+    </declare-styleable>
+</resources>

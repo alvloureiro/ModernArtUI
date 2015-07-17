@@ -19,7 +19,11 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.modern_layout);
+
+        RectangleActivity rects = (RectangleActivity) findViewById(R.id.rectangle_view);
+
         SeekBar colorbar = (SeekBar)findViewById(R.id.color_seekbar);
         colorbar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
